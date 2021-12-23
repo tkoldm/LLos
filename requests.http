@@ -1,0 +1,35 @@
+### create student
+POST http://localhost:5000/student
+Content-Type: application/json
+
+{
+    "first_name":"Peter",
+    "second_name":"S",
+    "last_name":"M",
+    "birthday":"06-08-2002",
+    "course":1
+}
+
+###
+GET  http://localhost:5000/student/
+Content-Type: application/json
+
+###
+PUT http://localhost:5000/student/2
+Content-Type: application/json
+
+{
+    "first_name":"Peter2",
+    "second_name":"Sr",
+    "last_name":"Mk",
+    "birthday":"06-08-2012",
+    "course":1
+}
+###
+DELETE  http://localhost:5000/student/2
+Content-Type: application/json
+
+
+###
+GET  http://localhost:5000/api/products
+Content-Type: application/json
