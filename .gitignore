@@ -3,4 +3,5 @@
 /Scripts
 pyvenv.cfg
 */site-packages
-/include/*
+/include
+/Lib
